@@ -1,5 +1,7 @@
+// The user is prompted to enter speed of the car
 const speed = prompt("Enter the speed of the car in km/h");
 
+// The speed is then take through the if else to verify the correct output to display
 if (speed < 70){
     message = console.log('OK');
 } else {
@@ -12,6 +14,7 @@ if (speed < 70){
         message = console.log(`Points : ${points}`);
     }
 
-    return message
 }
 
+// The corrct output is displayed 
+return message
